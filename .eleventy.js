@@ -4,3 +4,18 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true
   }
 }
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy('js')
+  return {
+    passthroughFileCopy: true
+  }
+}
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy('fonts')
+  return {
+    passthroughFileCopy: true
+  }
+}
+
